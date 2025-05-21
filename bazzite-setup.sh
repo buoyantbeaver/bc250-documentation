@@ -34,7 +34,7 @@ else
   echo "Creating systemd service file..."
   tee /etc/systemd/system/oberon-governor.service > /dev/null << 'EOF'
 [Unit]
-Description=Oberon CPU Frequency Governor
+Description=Oberon GPU Frequency Governor
 After=network.target
 
 [Service]
