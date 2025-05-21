@@ -23,7 +23,7 @@ opps:
     - max: 2000
   - voltage:
     - min: 700
-    - max: 1000
+    - max: 950
 EOF
 fi
 
